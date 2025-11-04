@@ -12,17 +12,17 @@
 
 这是嵌入式项目。
 
-尺寸类似 U 盘，但是多一个用于确认操作的触摸按键。支持 FIDO，PGP Smartcard 等协议标准。
+尺寸类似 U 盘，但是多一个用于确认操作的触摸按键。支持 FIDO，PGP Smartcard 等协议标准。这个项目的灵感来自 CanoKeys。
 
 - https://github.com/sb-child/unsafe-key
 
-项目状态：我应该先把 `unsafe { wallet }` 做出来，这两个项目在计划内会使用大致相同的硬件架构。
+项目状态：其实有几版早期的软硬件设计了。之后我应该先把 `unsafe { wallet }` 做出来，因为这两个项目在计划内会使用大致相同的硬件架构。
 
 ## 加密货币钱包 `unsafe { wallet }`
 
 这是嵌入式项目。
 
-长得像银行 K 宝，但是里面保存着绝密的私钥。用途很简单，就是签署交易。
+长得像银行 K 宝，但是里面保存着绝密的私钥。用途很简单，就是签署交易。其实 SafePal X1 的外观设计，和一些流行的钱包的架构都给我了很多灵感和knowledge。
 
 - https://github.com/sb-child/unsafe-wallet
 
