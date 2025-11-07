@@ -17,7 +17,7 @@ So, what's my goal?
 
 ## Minecraft 相关
 
-- [mc-version-list](./mc-version-list.md)
+- [mc-version-list](./mcvl.md)
 - [MC-Auth](./mc-auth.md)
 
 ## 输入设备
