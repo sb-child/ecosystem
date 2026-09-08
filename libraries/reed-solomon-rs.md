@@ -13,4 +13,11 @@
 
 ## 简介
 
+GF(2^8) 上的 Reed-Solomon 纠错码编解码器：`Encoder`/`Decoder` 以运行时参数指定 ECC 字节数，解码支持纠错并可选擦除（erase）位置提示，no_std、零依赖，附带宽测试示例。
+
 ## 相对于上游的改动
+
+- 新增编译期定长 API：`FixedEncoder<const ECCLEN>` / `FixedDecoder<const ECCLEN>`（const 泛型），ECC 长度由类型参数决定、无需运行时开销
+- 升级 edition 到 2024，修复弃用警告
+- 清理早期 rustc 的 plugin/clippy 残留（`#![feature(plugin)]` 等），示例换用 serde crate，修复与新版 rustc 的兼容错误
+- 更新文档

@@ -14,13 +14,13 @@ So, what's my goal?
 - (fork) [secrets-rs](./libraries/secrets-rs.md) ![rs](https://img.shields.io/badge/-rust-black?logo=Rust) 在内存中安全存储密钥的解决方案
 - (fork) [libsodium-rs](./libraries/libsodium-rs.md) ![rs](https://img.shields.io/badge/-rust-black?logo=Rust) 密码学套件 [libsodium](https://github.com/jedisct1/libsodium) 的 rust binding
 - (fork) [proc-macro-error-2](./libraries/proc-macro-error-2.md) ![rs](https://img.shields.io/badge/-rust-black?logo=Rust) 在过程宏中向用户报告错误的解决方案
-- (fork) [whirlwind](./libraries/whirlwind.md) ![rs](https://img.shields.io/badge/-rust-black?logo=Rust) 异步共享 [HashMap](https://doc.rust-lang.org/beta/std/collections/struct.HashMap.html) 实现
+- (fork) [whirlwind](./libraries/whirlwind.md) ![rs](https://img.shields.io/badge/-rust-black?logo=Rust) 异步线程安全 [HashMap](https://doc.rust-lang.org/beta/std/collections/struct.HashMap.html) 实现
 - (fork) [argonautica](./libraries/argonautica.md) ![rs](https://img.shields.io/badge/-rust-black?logo=Rust) 密码哈希函数 [Argon2](https://tools.ietf.org/html/draft-irtf-cfrg-argon2-03) 的 rust binding
 - (fork) [reed-solomon-rs](./libraries/reed-solomon-rs.md) ![rs](https://img.shields.io/badge/-rust-black?logo=Rust) 纠错算法 [Reed-Solomon](https://en.wikipedia.org/wiki/Reed%E2%80%93Solomon_error_correction) 的编解码器实现
 - (fork) [ctap-hid-fido2](./libraries/ctap-hid-fido2.md) ![rs](https://img.shields.io/badge/-rust-black?logo=Rust) 安全密钥 [FIDO2](https://fidoalliance.org/passkeys/) [CTAP](https://fidoalliance.org/specs/fido-v2.0-id-20180227/fido-client-to-authenticator-protocol-v2.0-id-20180227.html) 客户端实现
 - (fork) [opus-rs](./libraries/opus-rs.md) ![rs](https://img.shields.io/badge/-rust-black?logo=Rust) 音频编解码器 [libopus](https://opus-codec.org/) 的 rust binding
-- (fork) [addr](./libraries/addr.md) ![rs](https://img.shields.io/badge/-rust-black?logo=Rust) 域名结构解析器实现
-- [ads1298-rs](./libraries/ads1298-rs.md) ![rs](https://img.shields.io/badge/-rust-black?logo=Rust) 心电图传感器芯片 [ADS1298](https://www.ti.com/product/ADS1298) 的驱动程序
+- (fork) [addr](./libraries/addr.md) ![rs](https://img.shields.io/badge/-rust-black?logo=Rust) 域名/邮箱地址解析与校验器实现
+- [ads1298-rs](./libraries/ads1298-rs.md) ![rs](https://img.shields.io/badge/-rust-black?logo=Rust) 生物电信号采集芯片 [ADS1298](https://www.ti.com/product/ADS1298) 的驱动程序
 - (fork) [ctap_hmac](./libraries/ctap_hmac.md) ![rs](https://img.shields.io/badge/-rust-black?logo=Rust) 安全密钥 [FIDO2](https://fidoalliance.org/passkeys/) [CTAP](https://fidoalliance.org/specs/fido-v2.0-id-20180227/fido-client-to-authenticator-protocol-v2.0-id-20180227.html) 客户端实现
 
 ## 密码学相关
