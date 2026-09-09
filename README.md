@@ -4,7 +4,7 @@ So, what's my goal?
 
 ## `unsafe { ... }`
 
-一组涉及安全硬件的项目。
+一组涉及安全硬件的项目。目前完成度很低。
 
 - 东西有点多，[查看详情](./unsafe.md)。
 
@@ -27,23 +27,24 @@ So, what's my goal?
 
 重度依赖密码学的软件项目。
 
-- [PassChain](./passchain.md)
-- [TrustChain](./trustchain.md)
+- [roll-mnemonic](./crypto/roll-mnemonic.md) ![py](https://img.shields.io/badge/-python-black?logo=Python) 助记词摇号机
+- [PassChain](./crypto/passchain.md) ![rs](https://img.shields.io/badge/-rust-black?logo=Rust) 多因素密码派生框架
+- (todo) [TrustChain](./crypto/trustchain.md)
 
 ## Minecraft 相关
 
-- [mc-version-list](./mcvl.md)
-- [MC-Auth](./mc-auth.md)
+- (dead) [mc-version-list](./mc/mcvl.md) ![go](https://img.shields.io/badge/-Go-black?logo=Go) Minecraft 版本列表拉取器
+- [MC-Auth](./mc/mc-auth.md)
 
 ## 输入设备
 
 例如键盘鼠标的一切输入设备。
 
-- [keyboard](./keyboard.md)
+- (dead) [keyboard](./keyboard.md) 从头开始设计的机械键盘
 
 ## Duolingo 相关
 
-- [OhMyDuo](./oh-my-duo.md)
+- [OhMyDuo](./duolingo/oh-my-duo.md) ![go](https://img.shields.io/badge/-Go-black?logo=Go) 多邻国贴纸生成器
 
 ## Bot 或自动化工具
 
