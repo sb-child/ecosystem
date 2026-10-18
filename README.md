@@ -22,6 +22,7 @@ So, what's my goal?
 - (fork) [addr](./libraries/addr.md) ![rs](https://img.shields.io/badge/-rust-black?logo=Rust) 域名/邮箱地址解析与校验器实现
 - [ads1298-rs](./libraries/ads1298-rs.md) ![rs](https://img.shields.io/badge/-rust-black?logo=Rust) 生物电信号采集芯片 [ADS1298](https://www.ti.com/product/ADS1298) 的驱动程序
 - (fork) [ctap_hmac](./libraries/ctap_hmac.md) ![rs](https://img.shields.io/badge/-rust-black?logo=Rust) 安全密钥 [FIDO2](https://fidoalliance.org/passkeys/) [CTAP](https://fidoalliance.org/specs/fido-v2.0-id-20180227/fido-client-to-authenticator-protocol-v2.0-id-20180227.html) 客户端实现
+- (fork) [photon](./libraries/photon.md) ![rs](https://img.shields.io/badge/-rust-black?logo=Rust) 高性能 [Rust/WebAssembly 图像处理库](https://github.com/silvia-odwyer/photon)
 
 ## 密码学相关
 
