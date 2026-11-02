@@ -56,7 +56,8 @@ So, what's my goal?
 
 ## 驱动程序
 
-- [Tabletd](./tabletd.md)
+- [Tabletd](./tabletd.md) 用户态数位板驱动，替代 OpenTabletDriver
+- [dz-print](./dz-print.md) ![rs](https://img.shields.io/badge/-rust-black?logo=Rust) 德佟印立方标签打印机的第三方 USB/蓝牙驱动
 
 ## 后现代
 
