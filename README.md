@@ -23,7 +23,7 @@ So, what's my goal?
 - [ads1298-rs](./libraries/ads1298-rs.md) ![rs](https://img.shields.io/badge/-rust-black?logo=Rust) 生物电信号采集芯片 [ADS1298](https://www.ti.com/product/ADS1298) 的驱动程序
 - (fork) [ctap_hmac](./libraries/ctap_hmac.md) ![rs](https://img.shields.io/badge/-rust-black?logo=Rust) 安全密钥 [FIDO2](https://fidoalliance.org/passkeys/) [CTAP](https://fidoalliance.org/specs/fido-v2.0-id-20180227/fido-client-to-authenticator-protocol-v2.0-id-20180227.html) 客户端实现
 - (fork) [photon](./libraries/photon.md) ![rs](https://img.shields.io/badge/-rust-black?logo=Rust) 高性能 [Rust/WebAssembly 图像处理库](https://github.com/silvia-odwyer/photon)
-- [mytm](./libraries/mytm.md) ![rs](https://img.shields.io/badge/-rust-black?logo=Rust) 刚好能用的任务管理器
+- [mytm](./libraries/mytm.md) ![rs](https://img.shields.io/badge/-rust-black?logo=Rust) 基于 Tokio 的任务管理器：类型安全的进度上报、协作式取消与事件驱动等待
 
 ## 密码学相关
 
