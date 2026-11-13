@@ -54,6 +54,7 @@ So, what's my goal?
 - [lsp](./lsp.md)
 - [bilibili-daily-task](./bilibili-daily-task.md)
 - [print-my-mail](./print-my-mail.md) ![py](https://img.shields.io/badge/-python-black?logo=Python) 把新邮件和 GitHub 通知打印成小票
+- [watchwallet](./watchwallet.md) ![rs](https://img.shields.io/badge/-rust-black?logo=Rust) EVM 钱包活动监听器，把收款、转账和授权事件通过 dzserver 打印成小票
 
 ## 驱动程序
 
